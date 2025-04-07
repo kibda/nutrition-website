@@ -45,60 +45,70 @@ An all-in-one web application to help users manage their health and fitness jour
 
 ## 🧪 Installation & Setup
 
-### 1. Clone the repository
+## 🧪 Installation & Setup
 
-#bash
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/yourusername/coach-nutrition-app.git
 cd coach-nutrition-app
-----------------------------------------------------------------
+```
 
-## 2. Install dependencies
-# If using yarn
+### 2. Install Dependencies
+
+Using **Yarn**:
+
+```bash
 yarn install
+```
 
-# Or npm
+Or using **npm**:
+
+```bash
 npm install
+```
 
+### 3. Configure Environment Variables
 
-3. Set up environment variables
-Create a .env.local file in the root:
+Create a `.env.local` file at the root of your project and add the following:
 
+```env
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
+```
 
-4. Run the development server
+### 4. Run the Development Server
+
+```bash
 npm run dev
+```
 
-📌 Todo
- Setup MongoDB with Mongoose models
+The app will be running at: [http://localhost:3000](http://localhost:3000)
 
- Implement JWT-based authentication
+---
 
- Create User and Coach dashboards
+## 📌 Todo
 
- Nutrition plan system
+- ✅ Set up MongoDB with Mongoose models  
+- ✅ Implement JWT-based authentication  
+- ✅ Create User and Coach dashboards  
+- [ ] Nutrition plan system  
+- [ ] Workout scheduler  
+- [ ] Meal tracking with nutrient calculation  
+- [ ] Booking system for coaching sessions  
+- [ ] Feedback and rating system  
+- [ ] Admin dashboard  
+- [ ] Deploy to Vercel or another hosting platform  
 
- Workout scheduler
+---
 
- Meal tracking with nutrient calculation
+## ✍️ Authors
 
- Booking system for coaching sessions
-
- Feedback and rating system
-
- Admin dashboard
-
- Deploy to Vercel or any hosting platform
-
-✍️ Authors
-Walid Ben Abid
-
-Med Yassine Meriah
-
-Yassine Mkacher
-
-Ahmed Brahim Mekni
+- **Walid Ben Abid**  
+- **Med Yassine Meriah**  
+- **Yassine Mkacher**  
+- **Ahmed Brahim Mekni**
 
 
 
